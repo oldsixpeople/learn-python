@@ -1,0 +1,13 @@
+digraph graphname{
+          B[label="boss"][shape="octagon"][style="filled", color="black",fillcolor="pink"][penwidth=2.5]  ;
+          M[label="manger "][shape="hexagon"][style="filed",color="black",fillcolor="red"][penwidth=2.0] ;
+          G[label="group leader a"][shape="egg"][style="filled",color="black",fillcolor="blue"][penwidth=1.5] ;
+          P[label="manger "][shape="hexagon"][style="filed",color="black",fillcolor="yellow"][penwidth=2.0] ;
+          H[label="group leader b"][shape="egg"][style="filled",color="black",fillcolor="blue"][penwidth=1.5] ;
+          X[label="group leader c"][shape="egg"][style="filled",color="black",fillcolor="blue"][penwidth=1.5] ;
+          S[label="group leader d"][shape="egg"][style="filled",color="black",fillcolor="blue"][penwidth=1.5] ;
+          B->M,P [style="dashed",fontcolor=darkgreen][label="manage"] ;
+         M->G,H [style="dashed",fontcolor=darkgreen][label="manage"] ;
+         P->X,S [style="dashed",fontcolor=darkgreen][label="manage"] ;
+}
+          
